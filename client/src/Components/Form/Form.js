@@ -31,7 +31,7 @@ const Ind =()=>{
         <TextField
         name="ind_name"
         variant="outlined"
-        label="Ingridient Name"
+        label="Ingredient Name"
         halfWidth
         value={ind.ind_name}
           onChange={(e) => setind({ ...ind, ind_name: e.target.value })}
@@ -61,7 +61,7 @@ const Ind =()=>{
           type="submit"
           halfWidth
         >
-        Add Ingridient
+        Add Ingredient
         </Button>
         <Button
           variant="contained"

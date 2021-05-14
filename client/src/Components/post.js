@@ -31,7 +31,7 @@ const post = ({ post }) => {
           <Accordion.Collapse eventKey="1">
             <h5>
               <Card.Body>
-             <h5> List of all Ingridient </h5>
+             <h5> List of all Ingredient </h5>
                 {post.list_of_ind.map((ING) => <Ind ING={ING} /> )}
               <Card.Title>
               <strong>Steps For Preparation:</strong>
