@@ -21,6 +21,7 @@ cd client
 npm install
 
 #Run both Client and Server
+#root dir
 npm run dev
 
 ```
