@@ -1,1 +1,26 @@
-# Food
+# Food-Recipe App
+> Full stack Mern Application
+
+## Usage
+
+### .env
+
+```bash
+#db
+MONGO_URI_DEV=
+#jwt
+JWT_SECRET=
+
+```
+
+```bash
+#root dir
+npm install
+
+cd client
+npm install
+
+#Run both Client and Server
+npm run dev
+
+```
