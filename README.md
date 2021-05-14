@@ -6,6 +6,7 @@
 ### .env
 
 ```bash
+# create .env in root dir
 #db
 MONGO_URI_DEV=
 #jwt
